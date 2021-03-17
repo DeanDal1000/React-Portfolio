@@ -2,11 +2,11 @@ import React from 'react';
 //Pages
 import home1 from '../img/home1.png';
 //Styles
-import { About, Description, Hide, Image } from '../styles/About.elements';
+import { Description, Hide, Image, Layout } from '../styles/About.elements';
 
 const AboutSection = () => {
   return (
-    <About>
+    <Layout>
       <Description>
         <div className="title">
           <Hide>
@@ -30,7 +30,7 @@ const AboutSection = () => {
       <Image>
         <img src={home1} alt="home1" />
       </Image>
-    </About>
+    </Layout>
   );
 };
 
