@@ -1,12 +1,16 @@
 import React from 'react';
 //Page Components
 import About from '../components/About';
+import Faq from '../components/Faq';
+import Service from '../components/Service';
 
 const AboutUs = () => {
   return (
-    <div>
+    <>
       <About />
-    </div>
+      <Service />
+      <Faq />
+    </>
   );
 };
 
