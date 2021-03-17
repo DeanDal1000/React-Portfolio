@@ -1,15 +1,16 @@
 import React from 'react';
+//Styles
 //Page Components
-import About from '../components/About';
-import Faq from '../components/Faq';
-import Service from '../components/Service';
+import AboutSection from '../components/AboutSection';
+import FaqSection from '../components/FaqSection';
+import ServiceSection from '../components/ServiceSection';
 
 const AboutUs = () => {
   return (
     <>
-      <About />
-      <Service />
-      <Faq />
+      <AboutSection />
+      <ServiceSection />
+      <FaqSection />
     </>
   );
 };

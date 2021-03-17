@@ -3,7 +3,7 @@ import clock from '../img/clock.svg';
 import money from '../img/money.svg';
 import home2 from '../img/home2.png';
 
-const Service = () => {
+const ServiceSection = () => {
   return (
     <div>
       <div className="services">
@@ -50,4 +50,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default ServiceSection;
