@@ -1,8 +1,9 @@
 import React from 'react';
+import { Faq } from '../styles/Faq.element';
 
 const FaqSection = () => {
   return (
-    <div className="faq">
+    <Faq>
       <h2>
         Any Questions <span>FAQ</span>
       </h2>
@@ -39,7 +40,7 @@ const FaqSection = () => {
           </p>
         </div>
       </div>
-    </div>
+    </Faq>
   );
 };
 
