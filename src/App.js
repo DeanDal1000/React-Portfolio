@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
-import Work from './pages/Work';
+import Projects from './pages/Projects';
 //Global Styles
 import GlobalStyle from './styles/GlobalStyles';
 //Router
@@ -17,8 +17,8 @@ function App() {
         <Route exact path="/" component={AboutUs}>
           <AboutUs />
         </Route>
-        <Route exact path="/work" component={Work}>
-          <Work />
+        <Route exact path="/projects" component={Projects}>
+          <Projects />
         </Route>
         <Route exact path="/contact" component={ContactUs}>
           <ContactUs />
