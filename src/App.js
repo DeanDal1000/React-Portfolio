@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import GlobalStyle from './styles/GlobalStyles';
 //Router
 import { Switch, Route } from 'react-router-dom';
+import MovieDetail from './pages/MovieDetail';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/projects" component={Projects}>
           <Projects />
+        </Route>
+        <Route path="/projects/:id">
+          <MovieDetail />
         </Route>
         <Route exact path="/contact" component={ContactUs}>
           <ContactUs />
