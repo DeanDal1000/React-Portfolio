@@ -13,22 +13,22 @@ const Projects = () => {
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/projects/the-athlete">
           <img src={athlete} alt="athlete" />
         </Link>
       </Movie>
       <Movie>
         <h2>The Racer</h2>
         <div className="line"></div>
-        <Link>
-          <img src={theracer} alt="athlete" />
+        <Link to="/projects/the-racer">
+          <img src={theracer} alt="racer" />
         </Link>
       </Movie>
       <Movie>
         <h2>Good Times</h2>
         <div className="line"></div>
-        <Link>
-          <img src={goodtimes} alt="athlete" />
+        <Link to="/projects/good-times">
+          <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
     </Work>
