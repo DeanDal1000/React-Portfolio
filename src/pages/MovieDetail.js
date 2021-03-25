@@ -49,7 +49,7 @@ const MovieDetail = () => {
             ;
           </Information>
           <ImageDisplay>
-            <img src={movie.secondaryImg} alt="image" />
+            <img src={movie.secondaryImg} alt="movie" />
           </ImageDisplay>
         </Details>
       )}
