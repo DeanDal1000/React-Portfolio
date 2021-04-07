@@ -5,11 +5,12 @@ import athlete from '../img/athlete-small.png';
 import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
 import { Movie, Work } from '../styles/Project.element';
-//Style
+//Animation
+import { pageAnimation } from '../components/animation';
 
 const Projects = () => {
   return (
-    <Work>
+    <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>

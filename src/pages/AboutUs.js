@@ -10,7 +10,12 @@ import { pageAnimation } from '../components/animation';
 
 const AboutUs = () => {
   return (
-    <motion.div variants={pageAnimation} inital="hidden" animation="show">
+    <motion.div
+      exit="exit"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+    >
       <AboutSection />
       <ServiceSection />
       <FaqSection />

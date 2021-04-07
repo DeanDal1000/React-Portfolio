@@ -8,6 +8,9 @@ import {
   Information,
   SummaryStyle,
 } from '../styles/Movie.element';
+//Animation
+import { motion } from 'framer-motion';
+import { pageAnimation } from '../components/animation';
 
 const MovieDetail = () => {
   const history = useHistory();
@@ -33,7 +36,12 @@ const MovieDetail = () => {
   return (
     <>
       {movie && (
-        <Details>
+        <Details
+          exit="exit"
+          variants={pageAnimation}
+          initial="hidden"
+          animate="show"
+        >
           <Headline>
             <h2>{movie.title}</h2>
             <img src={movie.mainImg} alt="movie" />
