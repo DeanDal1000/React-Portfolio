@@ -4,32 +4,40 @@ import { Link } from 'react-router-dom';
 import athlete from '../img/athlete-small.png';
 import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
-import { Movie, Work } from '../styles/Project.element';
+import { Movie, Work, Hide } from '../styles/Project.element';
 //Animation
-import { pageAnimation } from '../components/animation';
+import {
+  pageAnimation,
+  fade,
+  imgAnimation,
+  lineAnimation,
+} from '../components/animation';
+import { motion } from 'framer-motion';
 
 const Projects = () => {
   return (
     <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <Movie>
-        <h2>The Athlete</h2>
-        <div className="line"></div>
+        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.div variants={lineAnimation} className="line"></motion.div>
         <Link to="/projects/the-athlete">
-          <img src={athlete} alt="athlete" />
+          <Hide>
+            <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
+          </Hide>
         </Link>
       </Movie>
       <Movie>
-        <h2>The Racer</h2>
+        <motion.h2 variants={fade}>The Racer</motion.h2>
         <div className="line"></div>
         <Link to="/projects/the-racer">
-          <img src={theracer} alt="racer" />
+          <img variants={imgAnimation} src={theracer} alt="racer" />
         </Link>
       </Movie>
       <Movie>
-        <h2>Good Times</h2>
+        <motion.h2 variants={fade}>Good Times</motion.h2>
         <div className="line"></div>
         <Link to="/projects/good-times">
-          <img src={goodtimes} alt="goodtimes" />
+          <img variants={imgAnimation} src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
     </Work>

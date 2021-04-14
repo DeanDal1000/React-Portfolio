@@ -56,3 +56,11 @@ export const imgAnimation = {
     },
   },
 };
+
+export const lineAnimation = {
+  hidden: { width: '0%' },
+  show: {
+    width: '100%',
+    transition: { duration: 1 },
+  },
+};

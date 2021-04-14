@@ -14,7 +14,7 @@ export const Movie = styled.div`
   padding-bottom: 10rem;
   .line {
     height: 0.5rem;
-    background: #cccccc;
+    background: orange;
     margin-bottom: 3rem;
   }
   img {
@@ -22,4 +22,17 @@ export const Movie = styled.div`
     height: 70vh;
     object-fit: cover;
   }
+`;
+
+export const Hide = styled.div`
+  overflow: hidden;
+`;
+
+//Frame Animation
+
+export const Frame1 = styled(motion.div)`
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100;
 `;
