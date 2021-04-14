@@ -5,6 +5,7 @@ import home1 from '../img/home1.png';
 import { Description, Hide, Image, Layout } from '../styles/About.elements';
 //Animation
 import { motion } from 'framer-motion';
+import { titleAnimation, fade, imgAnimation } from './animation';
 
 const AboutSection = () => {
   return (
@@ -12,19 +13,19 @@ const AboutSection = () => {
       <Description>
         <div className="title">
           <Hide>
-            <motion.h2>
+            <motion.h2 variants={titleAnimation}>
               We work to make <span>Dreams</span>
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2>come true</motion.h2>
+            <motion.h2 variants={titleAnimation}>come true</motion.h2>
           </Hide>
         </div>
-        <p>Contact Us for inquiries</p>
-        <button>Contact Us</button>
+        <motion.p variants={fade}>Contact Us for inquiries</motion.p>
+        <motion.button variants={fade}>Contact Us</motion.button>
       </Description>
       <Image>
-        <img src={home1} alt="home1" />
+        <motion.img variants={imgAnimation} src={home1} alt="home1" />
       </Image>
     </Layout>
   );
