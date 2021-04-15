@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Layout } from './About.elements';
+import { motion } from 'framer-motion';
 
 export const Faq = styled(Layout)`
   display: block;
@@ -19,7 +20,7 @@ export const FaqLine = styled.div`
   width: 100%;
 `;
 
-export const Question = styled.div`
+export const Question = styled(motion.div)`
   padding: 3rem 0rem;
   cursor: pointer;
 `;

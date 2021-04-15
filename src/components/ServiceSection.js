@@ -15,7 +15,7 @@ const ServiceSection = () => {
     <Layout>
       <Description>
         <h2>
-          Our <span>services</span>
+          My <span>Skills</span>
           <Cards>
             <Card>
               <div className="icon">

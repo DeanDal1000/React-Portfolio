@@ -15,15 +15,16 @@ const AboutSection = () => {
         <div className="title">
           <Hide>
             <motion.h2 variants={titleAnimation}>
-              We work to make <span>Dreams</span>
+              Dean John <span>Dalzell</span>
             </motion.h2>
           </Hide>
+          <br />
           <Hide>
-            <motion.h2 variants={titleAnimation}>come true</motion.h2>
+            <motion.h2 variants={titleAnimation}>Web Developer</motion.h2>
           </Hide>
         </div>
-        <motion.p variants={fade}>Contact Us for inquiries</motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+        <motion.p variants={fade}>Contact for inquiries</motion.p>
+        <motion.button variants={fade}>Contact Me</motion.button>
       </Description>
       <Image>
         <motion.img variants={imgAnimation} src={home1} alt="home1" />
