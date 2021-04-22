@@ -9,6 +9,8 @@ import {
   Cards,
   Card,
 } from '../styles/Service.element';
+// import { useInView } from 'react-intersection-observer';
+// import { useAnimation } from 'framer-motion';
 
 const ServiceSection = () => {
   return (

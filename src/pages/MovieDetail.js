@@ -9,7 +9,6 @@ import {
   SummaryStyle,
 } from '../styles/Movie.element';
 //Animation
-import { motion } from 'framer-motion';
 import { pageAnimation } from '../components/animation';
 
 const MovieDetail = () => {

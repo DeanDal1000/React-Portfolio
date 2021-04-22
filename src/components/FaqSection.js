@@ -1,14 +1,12 @@
 import React from 'react';
-import { Answer, Faq, FaqLine, Question } from '../styles/Faq.element';
+import { Answer, Faq } from '../styles/Faq.element';
 import Toggle from './Toggle';
 import { AnimateSharedLayout } from 'framer-motion';
 
 const FaqSection = () => {
   return (
     <Faq>
-      <h2>
-        Any Questions <span>FAQ</span>
-      </h2>
+      <h2>About Me</h2>
       <AnimateSharedLayout>
         <Toggle title="What is My Degree">
           <Answer>

@@ -13,6 +13,12 @@ import { AnimatePresence } from 'framer-motion';
 
 function App() {
   const location = useLocation();
+  //Adjust scroll when refresh page
+  window.onload = function () {
+    setTimeout(function () {
+      window.scrollTo(0, 0);
+    }, 1);
+  };
   return (
     <div className="App">
       <GlobalStyle />

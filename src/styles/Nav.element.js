@@ -9,6 +9,9 @@ export const Nav = styled.nav`
   background-color: #282828;
   padding: 1rem 10rem;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   a {
     color: white;
     text-decoration: none;

@@ -13,6 +13,7 @@ import {
   lineAnimation,
 } from '../components/animation';
 import { motion } from 'framer-motion';
+import ScrollTop from '../components/ScrollTop';
 
 const Projects = () => {
   return (
@@ -40,6 +41,7 @@ const Projects = () => {
           <img variants={imgAnimation} src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
+      <ScrollTop />
     </Work>
   );
 };
