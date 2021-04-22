@@ -5,11 +5,18 @@ export const ContactStyle = styled(motion.div)`
   padding: 5rem 10rem;
   color: #353535;
   min-height: 90vh;
+  @media (max-width: 1300px) {
+    padding: 2rem;
+    font-size: 1rem;
+  }
 `;
 
 export const Title = styled.div`
   margin-bottom: 4rem;
   color: white;
+  @media (max-width: 1300px) {
+    margin-top: 5rem;
+  }
 `;
 
 export const Hide = styled.div`
