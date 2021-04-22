@@ -9,6 +9,7 @@ import {
   Social,
   Title,
 } from '../styles/Contact.element';
+import ScrollTop from '../components/ScrollTop';
 
 const ContactUs = () => {
   return (
@@ -29,6 +30,7 @@ const ContactUs = () => {
           <h2>Hello</h2>
         </Social>
       </div>
+      <ScrollTop />
     </ContactStyle>
   );
 };

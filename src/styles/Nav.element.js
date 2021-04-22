@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 export const Nav = styled.nav`
   min-height: 10vh;
@@ -47,5 +48,17 @@ export const Nav = styled.nav`
     li {
       padding: 0;
     }
+  }
+`;
+
+export const Line = styled(motion.div)`
+  position: absolute;
+  background: orange;
+  width: 0%;
+  bottom: -80%;
+  height: 0.3rem;
+  left: 60%;
+  @media (max-width: 1300px) {
+    left: 0%;
   }
 `;
