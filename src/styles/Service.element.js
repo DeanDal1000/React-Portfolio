@@ -8,7 +8,7 @@ export const Layout = styled.div`
   padding: 5rem 10rem;
   color: white;
   h2 {
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
   }
 
   p {
@@ -35,10 +35,17 @@ export const Card = styled.div`
   .icon {
     display: flex;
     align-items: center;
-    h3 {
-      font-size: 1rem;
-      padding-left: 0.5rem;
-    }
+    height: 1rem;
+    background-size: 10px 20px;
+  }
+  .reactIcon {
+    color: blue;
+    display: flex;
+    align-items: center;
+  }
+  h3 {
+    font-size: 1rem;
+    padding-left: 0.5rem;
   }
 `;
 

@@ -89,6 +89,7 @@ const Projects = () => {
           </Card>
         </Column>
       </Row>
+      <ScrollTop />
     </Work>
   );
 };
