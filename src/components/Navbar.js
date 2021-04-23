@@ -12,7 +12,7 @@ const Navbar = () => {
         </Link>
         <ul>
           <li>
-            <Link to="/">About Us</Link>
+            <Link to="/">1. About Me</Link>
             <Line
               transition={{ duration: 0.75 }}
               initial={{ width: '0%' }}
@@ -20,7 +20,7 @@ const Navbar = () => {
             />
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">2. Projects</Link>
             <Line
               transition={{ duration: 0.75 }}
               initial={{ width: '0%' }}

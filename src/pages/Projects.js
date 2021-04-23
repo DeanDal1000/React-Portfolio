@@ -53,7 +53,7 @@ const Projects = () => {
     <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <Row>
         <Column>
-          <motion.h2 variants={fade}>The Athlete</motion.h2>
+          <motion.h2 variants={fade}>Find My Movie</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
             <Link to="/projects/the-athlete">
@@ -62,7 +62,7 @@ const Projects = () => {
           </Card>
         </Column>
         <Column>
-          <motion.h2 variants={fade}>The Athlete</motion.h2>
+          <motion.h2 variants={fade}>Music Player</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
             <Link to="/projects/the-athlete">
@@ -71,7 +71,7 @@ const Projects = () => {
           </Card>
         </Column>
         <Column>
-          <motion.h2 variants={fade}>The Athlete</motion.h2>
+          <motion.h2 variants={fade}>Gatsby Blog</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
             <Link to="/projects/the-athlete">
@@ -80,7 +80,7 @@ const Projects = () => {
           </Card>
         </Column>
         <Column>
-          <motion.h2 variants={fade}>The Athlete</motion.h2>
+          <motion.h2 variants={fade}>Dynamic</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
             <Link to="/projects/the-athlete">

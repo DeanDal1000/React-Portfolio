@@ -1,14 +1,13 @@
 import React from 'react';
-import clock from '../img/clock.svg';
-import money from '../img/money.svg';
 import home2 from '../img/home2.png';
 //Images
 import reactIcon from '../img/react.svg';
 import javaScriptIcon from '../img/js.svg';
 import htmlIcon from '../img/html.svg';
 import gitIcon from '../img/git.svg';
-import { FaReact } from 'react-icons/fa';
-import { DiJavascript1 } from 'react-icons/di';
+import cssIcon from '../img/css.svg';
+import pythonIcon from '../img/python.svg';
+//Styles
 import {
   Layout,
   Description,
@@ -16,6 +15,9 @@ import {
   Cards,
   Card,
 } from '../styles/Service.element';
+//Animation
+import { motion } from 'framer-motion';
+import { titleAnimation, fade, imgAnimation } from './animation';
 // import { useInView } from 'react-intersection-observer';
 // import { useAnimation } from 'framer-motion';
 
@@ -55,10 +57,24 @@ const ServiceSection = () => {
             </div>
             <p>This is a paragraph</p>
           </Card>
+          <Card>
+            <div className="icon">
+              <img alt="css" src={cssIcon} />
+              <h3>CSS</h3>
+            </div>
+            <p>This is a paragraph</p>
+          </Card>
+          <Card>
+            <div className="icon">
+              <img alt="python" src={pythonIcon} />
+              <h3>Python</h3>
+            </div>
+            <p>This is a paragraph</p>
+          </Card>
         </Cards>
       </Description>
       <Image>
-        <img alt="icon" src={home2}></img>
+        <motion.img variants={imgAnimation} alt="icon" src={home2}></motion.img>
       </Image>
     </Layout>
   );
