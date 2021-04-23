@@ -7,6 +7,7 @@ import { Description, Hide, Image, Layout } from '../styles/About.elements';
 import { motion } from 'framer-motion';
 import { titleAnimation, fade, imgAnimation } from './animation';
 import Wave from './Wave';
+import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
   return (
@@ -20,11 +21,13 @@ const AboutSection = () => {
           </Hide>
           <br />
           <Hide>
-            <motion.h2 variants={titleAnimation}>Web Developer</motion.h2>
+            <motion.h2 variants={titleAnimation}>Software Engineer</motion.h2>
           </Hide>
         </div>
         <motion.p variants={fade}>Contact for inquiries</motion.p>
-        <motion.button variants={fade}>Contact Me</motion.button>
+        <Link to="/contact">
+          <motion.button variants={fade}>Contact Me</motion.button>
+        </Link>
       </Description>
       <Image>
         <motion.img variants={imgAnimation} src={home1} alt="home1" />

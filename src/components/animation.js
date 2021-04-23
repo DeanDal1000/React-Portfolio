@@ -28,7 +28,7 @@ export const titleAnimation = {
   show: {
     y: 0,
     transition: {
-      duration: 0.75,
+      duration: 0.5,
       ease: 'easeOut',
     },
   },
@@ -40,7 +40,7 @@ export const fade = {
     opacity: 1,
     transition: {
       ease: 'easeOut',
-      duration: 0.75,
+      duration: 0.5,
     },
   },
 };
@@ -51,7 +51,7 @@ export const imgAnimation = {
     scale: 1,
     opacity: 1,
     transition: {
-      duration: 0.75,
+      duration: 0.5,
       ease: 'easeOut',
     },
   },
@@ -60,7 +60,7 @@ export const imgAnimation = {
 export const lineAnimation = {
   hidden: { width: '0%' },
   show: {
-    width: '100%',
+    width: '20%',
     transition: { duration: 1 },
   },
 };
