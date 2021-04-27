@@ -9,32 +9,31 @@ import theracer2 from './img/the-racer2.jpg';
 export const MovieState = () => {
   return [
     {
-      title: 'The Athlete',
+      title: 'The Movie Database',
       mainImg: athlete,
       secondaryImg: athlete2,
-      url: '/projects/the-athlete',
+      url: '/projects/the-movie',
       awards: [
         {
-          title: 'Truly A masterpiece',
-          description:
-            '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+          title: 'The Movie Database',
+          description: 'An application created using ReactJS, CSS & HTML',
         },
         {
-          title: 'Fresh look on a brutal sport.',
+          title: 'Functionality',
           description:
-            '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+            'The application allows users to search and find their favourite movie',
         },
         {
-          title: 'It’s okay lmao.',
+          title: 'Technology',
           description:
-            '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
         },
       ],
     },
     {
-      title: 'Good Times',
+      title: 'Music Player',
       mainImg: goodtimes,
-      url: '/projects/good-times',
+      url: '/projects/music',
       secondaryImg: goodtimes2,
       awards: [
         {
@@ -55,9 +54,9 @@ export const MovieState = () => {
       ],
     },
     {
-      title: 'The Racer',
+      title: 'The Form',
       mainImg: theracer,
-      url: '/projects/the-racer',
+      url: '/projects/form',
       secondaryImg: theracer2,
       awards: [
         {

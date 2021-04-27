@@ -4,7 +4,9 @@ import styled from 'styled-components';
 export const ContactStyle = styled(motion.div)`
   padding: 5rem 10rem;
   color: #353535;
+  background: #1b1b1b;
   min-height: 90vh;
+
   @media (max-width: 1300px) {
     padding: 2rem;
     font-size: 1rem;
@@ -162,10 +164,9 @@ export const FormInput = styled.div`
   .form-button {
     margin-bottom: 0;
     text-align: right;
-    color: red;
     #send {
       border: none;
-      color: red;
+      color: #23d997;
       &:hover {
         background: none;
       }

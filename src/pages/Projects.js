@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //Images
 import athlete from '../img/athlete-small.png';
-import theracer from '../img/theracer-small.png';
-import goodtimes from '../img/goodtimes-small.png';
+import film from '../img/film.jpg';
 import {
   Movie,
   Work,
@@ -56,8 +55,8 @@ const Projects = () => {
           <motion.h2 variants={fade}>Find My Movie</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
-            <Link to="/projects/the-athlete">
-              <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
+            <Link to="/projects/the-movie">
+              <motion.img variants={imgAnimation} src={film} alt="athlete" />
             </Link>
           </Card>
         </Column>
@@ -65,16 +64,17 @@ const Projects = () => {
           <motion.h2 variants={fade}>Music Player</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
-            <Link to="/projects/the-athlete">
+            <Link to="/projects/music">
               <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
             </Link>
           </Card>
         </Column>
         <Column>
-          <motion.h2 variants={fade}>Gatsby Blog</motion.h2>
+          <motion.h2 variants={fade}>The Form</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
+
           <Card>
-            <Link to="/projects/the-athlete">
+            <Link to="/projects/form">
               <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
             </Link>
           </Card>
@@ -83,9 +83,23 @@ const Projects = () => {
           <motion.h2 variants={fade}>Dynamic</motion.h2>
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
-            <Link to="/projects/the-athlete">
-              <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
-            </Link>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <Link to="/projects/the-athlete">
+                    <motion.img
+                      variants={imgAnimation}
+                      src={athlete}
+                      alt="athlete"
+                    />
+                  </Link>
+                </div>
+                <div className="flip-card-back">
+                  <h3>The Movie Database</h3>
+                  <p>This Application was created with...</p>
+                </div>
+              </div>
+            </div>
           </Card>
         </Column>
       </Row>

@@ -30,11 +30,11 @@ const ContactUs = () => {
       initial="hidden"
       animate="show"
     >
-      <Title>
+      {/* <Title>
         <Hide>
           <motion.h2 variants={titleAnimation}>Contact Me</motion.h2>
         </Hide>
-      </Title>
+      </Title> */}
       <Container>
         <Form>
           <FormTitle>
