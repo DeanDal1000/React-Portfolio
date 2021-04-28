@@ -62,6 +62,7 @@ export const Column = styled.div`
   /* Float four columns side by side */
   float: left;
   width: 33%;
+  padding: 0.5rem;
   /* padding: 0 10px 20px; */
   overflow: hidden;
   .line {
@@ -79,6 +80,7 @@ export const Column = styled.div`
   h2 {
     padding: 1rem 0rem;
     color: white;
+    font-family: 'Roboto', sans-serif;
     @media (max-width: 1300px) {
       display: block;
       margin: 2rem 2rem;
@@ -124,11 +126,15 @@ export const Card = styled.div`
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    overflow: hidden;
   }
 
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: #333333;
     transform: rotateY(180deg);
+    border-radius: 5%;
+    p {
+      color: #23d997;
+    }
   }
 `;

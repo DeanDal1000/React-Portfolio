@@ -2,14 +2,16 @@ import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
 export const ContactStyle = styled(motion.div)`
-  padding: 5rem 10rem;
-  color: #353535;
-  background: #1b1b1b;
   min-height: 90vh;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: white;
   @media (max-width: 1300px) {
-    padding: 2rem;
-    font-size: 1rem;
+    display: block;
+    padding: 2rem 2rem;
+    text-align: center;
   }
 `;
 
@@ -23,6 +25,37 @@ export const Title = styled.div`
 
 export const Hide = styled.div`
   overflow: hidden;
+  .container {
+    background: none;
+    display: block;
+
+    input {
+      width: 30%;
+      margin: 1rem;
+      padding: 10px 0;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #666;
+      color: #23d997;
+      font-size: 14px;
+      text-transform: uppercase;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .submit-button {
+      background: none;
+      border: none;
+      color: #23d997;
+      font-size: 14px;
+      cursor: pointer;
+      outline: none;
+      display: block;
+      margin-left: 23.5rem;
+    }
+    .form {
+      width: 65%;
+    }
+  }
 `;
 
 export const Circle = styled.div`
@@ -40,136 +73,42 @@ export const Social = styled(motion.div)`
   }
 `;
 
-export const Container = styled.div`
-  display: flex;
-  margin: auto;
-  padding: 10px;
-  justify-content: center;
-  @media (max-width: 700px) {
-    flex-direction: column;
+export const Description = styled.div`
+  flex: 1;
+  padding-right: 5rem;
+
+  h2 {
+    font-weight: lighter;
+  }
+  @media (max-width: 1300px) {
+    padding: 1;
+    button {
+      margin: 2rem 0rem 5rem 0rem;
+    }
   }
 `;
 
-export const Form = styled.div`
-  position: relative;
-  background: #3e3e3e;
-  border-radius: 15px;
-  width: 50%;
+export const Image = styled.div`
+  flex: 1;
+  overflow: hidden;
 
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 20px;
-    right: 20px;
-    bottom: 0;
-    border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    z-index: -1;
-  }
-  @media (max-width: 700px) {
-    flex-direction: column;
-    width: 100%;
+  img {
+    width: 80%;
+    height: 80vh;
+    object-fit: cover;
   }
 `;
 
-export const FormTitle = styled.div`
+export const Layout = styled.div`
+  min-height: 90vh;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  background: #4d4d4f;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-`;
-
-export const FormLeft = styled.div`
-  margin-right: auto;
-`;
-
-export const FormTitleButton = styled.div`
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 3px;
-  border-radius: 8px;
-  background: white;
-`;
-
-export const FormBody = styled.div`
-  display: flex;
-`;
-
-export const FormItem = styled.div`
-  flex: 1;
-  padding: 50px;
-`;
-
-export const FormItemLeft = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-export const FormName = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  color: #ea1d6f;
-  margin: 3rem 8rem 3rem 4rem;
-  font-size: 26px;
-  &:after {
-    content: '';
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: white;
+  @media (max-width: 1300px) {
     display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 25px;
-    height: 4px;
-    background: orange;
-  }
-  @media (max-width: 700px) {
-    flex-direction: column;
-    margin: 1rem;
-  }
-`;
-
-export const FormContact = styled.div`
-  margin-top: auto;
-  font-size: 8px;
-  color: #888;
-`;
-
-export const FormInput = styled.div`
-  .group {
-    margin-bottom: 15px;
-  }
-  .input {
-    width: 100%;
-    padding: 10px 0;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #666;
-    color: #ddd;
-    font-size: 14px;
-    text-transform: uppercase;
-    outline: none;
-    transition: border-color 0.2s;
-    &::placeholder {
-      color: #666;
-    }
-  }
-  .group-message {
-    margin-top: 40px;
-  }
-  .form-button {
-    margin-bottom: 0;
-    text-align: right;
-    #send {
-      border: none;
-      color: #23d997;
-      &:hover {
-        background: none;
-      }
-    }
+    padding: 2rem 2rem;
+    text-align: center;
   }
 `;

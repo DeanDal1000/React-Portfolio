@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 //Images
 import athlete from '../img/athlete-small.png';
 import film from '../img/film.jpg';
+import music from '../img/music.jpg';
 import {
   Movie,
   Work,
@@ -65,7 +66,7 @@ const Projects = () => {
           <motion.div variants={lineAnimation} className="line"></motion.div>
           <Card>
             <Link to="/projects/music">
-              <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
+              <motion.img variants={imgAnimation} src={music} alt="athlete" />
             </Link>
           </Card>
         </Column>
@@ -97,6 +98,9 @@ const Projects = () => {
                 <div className="flip-card-back">
                   <h3>The Movie Database</h3>
                   <p>This Application was created with...</p>
+                  <p>
+                    <button></button>
+                  </p>
                 </div>
               </div>
             </div>
