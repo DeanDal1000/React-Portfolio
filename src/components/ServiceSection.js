@@ -24,6 +24,11 @@ import { titleAnimation, fade, imgAnimation } from './animation';
 const ServiceSection = () => {
   return (
     <Layout>
+      {/* <motion.div
+        className="container"
+        whileHover={{ scale: 1.2, rotate: 0 }}
+        whileTap={{ scale: 0.8, rotate: -90, borderRadius: '100%' }}
+      /> */}
       <Description>
         <h2>
           My <span>Skills</span>
@@ -31,45 +36,75 @@ const ServiceSection = () => {
         <Cards>
           <Card>
             <div className="icon">
-              <img alt="react" src={reactIcon} />
+              <motion.img
+                whileHover={{ scale: 1.2, rotate: 0 }}
+                whileTap={{ scale: 0.8, rotate: -90, borderRadius: '100%' }}
+                alt="react"
+                src={reactIcon}
+              />
               <h3>React</h3>
             </div>
             <p>This is a paragraph</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="js" src={javaScriptIcon} />
+              <motion.img
+                alt="js"
+                whileHover={{ scale: 1.2, rotate: 0 }}
+                whileTap={{ scale: 0.8, rotate: -90, borderRadius: '0%' }}
+                src={javaScriptIcon}
+              />
               <h3>JavaScript</h3>
             </div>
             <p>This is a paragraph</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="html" src={htmlIcon} />
+              <motion.img
+                whileHover={{ scale: 1.2, rotate: 0 }}
+                whileTap={{ scale: 0.8, rotate: -90, borderRadius: '0%' }}
+                alt="html"
+                src={htmlIcon}
+              />
               <h3>HTML</h3>
             </div>
             <p>This is a paragraph</p>
           </Card>
           <Card>
             <div className="icon">
-              <img alt="git" src={gitIcon} />
+              <motion.img
+                whileHover={{ scale: 1.2, rotate: 0 }}
+                whileTap={{ scale: 0.8, rotate: -90, borderRadius: '0%' }}
+                alt="git"
+                src={gitIcon}
+              />
               <h3>Git</h3>
             </div>
-            <p>This is a paragraph</p>
+            {/* <p>This is a paragraph</p> */}
           </Card>
           <Card>
             <div className="icon">
-              <img alt="css" src={cssIcon} />
+              <motion.img
+                whileHover={{ scale: 1.2, rotate: 0 }}
+                whileTap={{ scale: 0.8, rotate: -90, borderRadius: '0%' }}
+                alt="css"
+                src={cssIcon}
+              />
               <h3>CSS</h3>
             </div>
-            <p>This is a paragraph</p>
+            {/* <p>This is a paragraph</p> */}
           </Card>
           <Card>
             <div className="icon">
-              <img alt="python" src={pythonIcon} />
+              <motion.img
+                whileHover={{ scale: 1.2, rotate: 0 }}
+                whileTap={{ scale: 0.8, rotate: -90, borderRadius: '0%' }}
+                alt="python"
+                src={pythonIcon}
+              />
               <h3>Python</h3>
             </div>
-            <p>This is a paragraph</p>
+            {/* <p></p> */}
           </Card>
         </Cards>
       </Description>

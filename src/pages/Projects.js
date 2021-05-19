@@ -21,6 +21,7 @@ import {
 } from '../components/animation';
 import { motion } from 'framer-motion';
 import ScrollTop from '../components/ScrollTop';
+import '../styles/styles1.css';
 
 const Projects = () => {
   return (
