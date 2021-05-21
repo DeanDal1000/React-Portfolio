@@ -44,8 +44,8 @@ export const Card = styled.div`
     align-items: center;
   }
   h3 {
-    font-size: 1rem;
-    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
   }
 `;
 
