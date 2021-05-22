@@ -143,7 +143,7 @@ export const Card = styled.div`
 
 export const Projectcontainer = styled.div`
   .container {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .title {
@@ -158,6 +158,8 @@ export const Projectcontainer = styled.div`
     max-width: 400px;
     margin: auto;
     overflow: hidden;
+    margin: 1rem;
+    padding: 0.5rem;
   }
 
   .content .content-overlay {

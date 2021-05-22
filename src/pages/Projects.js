@@ -88,7 +88,12 @@ const Projects = () => {
     //   <ScrollTop />;
     // </Work>
     <Projectcontainer>
-      <div class="container">
+      <motion.div
+        class="container"
+        variants={pageAnimation}
+        initial="hidden"
+        animate="show"
+      >
         <div class="row">
           <div class="col-md-4">
             <div class="content">
@@ -100,7 +105,7 @@ const Projects = () => {
                   src="https://i.imgur.com/7cNRozs.jpg"
                 />
                 <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Geysers Valley Hotel</h3>
+                  <h3 class="content-title">Horror Resource</h3>
                   <p class="content-text">
                     <i class="fa fa-map-marker"></i> Russia
                   </p>
@@ -118,7 +123,7 @@ const Projects = () => {
                   src="https://i.imgur.com/CS59IJZ.jpg"
                 />
                 <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Khumbu Valley Hotel</h3>
+                  <h3 class="content-title">Find My Movie</h3>
                   <p class="content-text">
                     <i class="fa fa-map-marker"></i> Nepal
                   </p>
@@ -136,7 +141,61 @@ const Projects = () => {
                   src="https://i.imgur.com/LITAKvq.jpg"
                 />
                 <div class="content-details fadeIn-bottom">
-                  <h3 class="content-title">Waipi’o Valley Hotel</h3>
+                  <h3 class="content-title">Music Player</h3>
+                  <p class="content-text">
+                    <i class="fa fa-map-marker"></i> Hawaii
+                  </p>
+                </div>
+              </a>{' '}
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              {' '}
+              <a href="#">
+                <div class="content-overlay"></div>{' '}
+                <img
+                  class="content-image"
+                  src="https://i.imgur.com/LITAKvq.jpg"
+                />
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">Gatsby Blog</h3>
+                  <p class="content-text">
+                    <i class="fa fa-map-marker"></i> Hawaii
+                  </p>
+                </div>
+              </a>{' '}
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              {' '}
+              <a href="#">
+                <div class="content-overlay"></div>{' '}
+                <img
+                  class="content-image"
+                  src="https://i.imgur.com/LITAKvq.jpg"
+                />
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">Powerlift</h3>
+                  <p class="content-text">
+                    <i class="fa fa-map-marker"></i> Hawaii
+                  </p>
+                </div>
+              </a>{' '}
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content">
+              {' '}
+              <a href="#">
+                <div class="content-overlay"></div>{' '}
+                <img
+                  class="content-image"
+                  src="https://i.imgur.com/LITAKvq.jpg"
+                />
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">Dynamic</h3>
                   <p class="content-text">
                     <i class="fa fa-map-marker"></i> Hawaii
                   </p>
@@ -145,7 +204,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </Projectcontainer>
   );
 };
