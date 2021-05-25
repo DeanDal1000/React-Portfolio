@@ -90,57 +90,6 @@ export const Column = styled.div`
   }
 `;
 
-export const Card = styled.div`
-  background: transparent;
-
-  img {
-    width: 100%;
-    padding: 0.75rem;
-    height: 50vh;
-    object-fit: cover;
-    border-radius: 5%;
-  }
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  .flip-card {
-    background-color: transparent;
-    width: 100%;
-    height: 500px;
-    perspective: 1000px;
-  }
-
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
-  }
-
-  .flip-card-back {
-    background-color: #333333;
-    transform: rotateY(180deg);
-    border-radius: 5%;
-    p {
-      color: #23d997;
-    }
-  }
-`;
-
 export const Projectcontainer = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;

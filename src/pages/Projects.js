@@ -30,67 +30,6 @@ import '../styles/styles1.css';
 
 const Projects = () => {
   return (
-    // <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
-    //   <Row>
-    //     <Column>
-    //       <motion.h2 variants={fade}>Find My Movie</motion.h2>
-    //       <motion.div variants={lineAnimation} classNameName="line"></motion.div>
-
-    //       <Card>
-    //         <Link to="/projects/the-movie">
-    //           <motion.img variants={imgAnimation} src={film} alt="athlete" />
-    //         </Link>
-    //       </Card>
-    //     </Column>
-
-    //     <Column>
-    //       <motion.h2 variants={fade}>Music Player</motion.h2>
-    //       <motion.div variants={lineAnimation} classNameName="line"></motion.div>
-    //       <Card>
-    //         <Link to="/projects/music">
-    //           <motion.img variants={imgAnimation} src={music} alt="athlete" />
-    //         </Link>
-    //       </Card>
-    //     </Column>
-    //     <Column>
-    //       <motion.h2 variants={fade}>The Form</motion.h2>
-    //       <motion.div variants={lineAnimation} classNameName="line"></motion.div>
-
-    //       <Card>
-    //         <Link to="/projects/form">
-    //           <motion.img variants={imgAnimation} src={athlete} alt="athlete" />
-    //         </Link>
-    //       </Card>
-    //     </Column>
-    //     <Column>
-    //       <motion.h2 variants={fade}>Dynamic</motion.h2>
-    //       <motion.div variants={lineAnimation} classNameName="line"></motion.div>
-    //       <Card>
-    //         <div classNameName="flip-card">
-    //           <div classNameName="flip-card-inner">
-    //             <div classNameName="flip-card-front">
-    //               <Link to="/projects/the-athlete">
-    //                 <motion.img
-    //                   variants={imgAnimation}
-    //                   src={athlete}
-    //                   alt="athlete"
-    //                 />
-    //               </Link>
-    //             </div>
-    //             <div classNameName="flip-card-back">
-    //               <h3>The Movie Database</h3>
-    //               <p>This Application was created with...</p>
-    //               <p>
-    //                 <button></button>
-    //               </p>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </Card>
-    //     </Column>
-    //   </Row>
-    //   <ScrollTop />;
-    // </Work>
     <Projectcontainer>
       <motion.div
         className="container"
