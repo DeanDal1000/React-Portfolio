@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export const Faq = styled(Layout)`
   display: block;
   span {
-    display: block;
+    display: inline-block;
   }
   h2 {
     font-weight: lighter;

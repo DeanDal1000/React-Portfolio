@@ -50,11 +50,11 @@ const ContactUs = () => {
             </motion.h2>
           </Hide>
           <br />
-          <Hide>
+          {/* <Hide>
             <motion.h3 variants={titleAnimation}>
               Please feel free to give me a message
             </motion.h3>
-          </Hide>
+          </Hide> */}
         </div>
       </Description>
 
