@@ -30,7 +30,7 @@ button {
     font-size: 1.1rem;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 3px solid orange;
+    border: 3px solid yellow;
     background: transparent;
     color: white;
     transition: all 0.5s ease;

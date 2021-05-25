@@ -18,12 +18,7 @@ const ContactUs = () => {
           <Hide>
             <motion variants={titleAnimation}>
               <div className="container">
-                <form
-                  id="contact-form"
-                  data-netlify="true"
-                  action="POST"
-                  enctype="multipart/form-data"
-                >
+                <form id="contact-form" data-netlify="true" method="POST">
                   <input type="text" placeholder="FIRST NAME" name="name" />
                   <input type="email" placeholder="EMAIL" name="email" />
                   <input
