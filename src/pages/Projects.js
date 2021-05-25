@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 //Images
 import film from '../img/movie.png';
 import human from '../img/human.jpg';
@@ -8,22 +7,9 @@ import music from '../img/music.jpg';
 import road from '../img/road.jpg';
 import blog from '../img/blog.jpg';
 
-import {
-  Movie,
-  Work,
-  Hide,
-  Row,
-  Column,
-  Card,
-  Projectcontainer,
-} from '../styles/Project.element';
+import { Projectcontainer } from '../styles/Project.element';
 //Animation
-import {
-  pageAnimation,
-  fade,
-  imgAnimation,
-  lineAnimation,
-} from '../components/animation';
+import { pageAnimation } from '../components/animation';
 import { motion } from 'framer-motion';
 import ScrollTop from '../components/ScrollTop';
 import '../styles/styles1.css';

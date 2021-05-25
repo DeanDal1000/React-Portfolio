@@ -17,18 +17,13 @@ import {
 } from '../styles/Service.element';
 //Animation
 import { motion } from 'framer-motion';
-import { titleAnimation, fade, imgAnimation } from './animation';
+import { imgAnimation } from './animation';
 // import { useInView } from 'react-intersection-observer';
 // import { useAnimation } from 'framer-motion';
 
 const ServiceSection = () => {
   return (
     <Layout>
-      {/* <motion.div
-        className="container"
-        whileHover={{ scale: 1.2, rotate: 0 }}
-        whileTap={{ scale: 0.8, rotate: -90, borderRadius: '100%' }}
-      /> */}
       <Description>
         <h2>
           My <span>Skills</span>

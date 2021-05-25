@@ -1,7 +1,7 @@
 import React from 'react';
 //Animations
 import { motion } from 'framer-motion';
-import { pageAnimation, titleAnimation, fade } from '../components/animation';
+import { pageAnimation, titleAnimation } from '../components/animation';
 import { ContactStyle, Description, Hide } from '../styles/Contact.element';
 import ScrollTop from '../components/ScrollTop';
 
