@@ -20,18 +20,24 @@ const ContactUs = () => {
               <div className="container">
                 <form
                   id="contact-form"
-                  method="POST"
-                  action="send"
+                  data-netlify="true"
+                  action="POST"
                   enctype="multipart/form-data"
                 >
-                  <input type="text" placeholder="FIRST NAME" />
-                  <input type="email" placeholder="EMAIL" />
+                  <input type="text" placeholder="FIRST NAME" name="name" />
+                  <input type="email" placeholder="EMAIL" name="email" />
                   <input
                     type="text"
                     placeholder="Contact No"
                     className="form"
+                    name="contact"
                   />
-                  <input type="text" placeholder="MESSAGE" className="form" />
+                  <input
+                    type="text"
+                    name="message"
+                    placeholder="MESSAGE"
+                    className="form"
+                  />
                   <button type="submit" className="submit-button">
                     SEND
                   </button>
