@@ -44,7 +44,7 @@ const ServiceSection = () => {
               />
               <h3>React</h3>
             </div>
-            <p>This is a paragraph</p>
+            <p></p>
           </Card>
           <Card>
             <div className="icon">
@@ -56,7 +56,7 @@ const ServiceSection = () => {
               />
               <h3>JavaScript</h3>
             </div>
-            <p>This is a paragraph</p>
+            <p></p>
           </Card>
           <Card>
             <div className="icon">
@@ -68,7 +68,7 @@ const ServiceSection = () => {
               />
               <h3>HTML</h3>
             </div>
-            <p>This is a paragraph</p>
+            <p></p>
           </Card>
           <Card>
             <div className="icon">
@@ -80,7 +80,7 @@ const ServiceSection = () => {
               />
               <h3>Git</h3>
             </div>
-            {/* <p>This is a paragraph</p> */}
+            <p></p>
           </Card>
           <Card>
             <div className="icon">
@@ -92,7 +92,7 @@ const ServiceSection = () => {
               />
               <h3>CSS</h3>
             </div>
-            {/* <p>This is a paragraph</p> */}
+            <p></p>
           </Card>
           <Card>
             <div className="icon">
@@ -104,7 +104,7 @@ const ServiceSection = () => {
               />
               <h3>Python</h3>
             </div>
-            {/* <p></p> */}
+            <p></p>
           </Card>
         </Cards>
       </Description>

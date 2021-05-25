@@ -52,14 +52,10 @@ const ContactUs = () => {
           <br />
           <Hide>
             <motion.h3 variants={titleAnimation}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry.Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry.
+              Please feel free to give me a message
             </motion.h3>
           </Hide>
         </div>
-        <motion.p variants={fade}>Contact for inquiries</motion.p>
       </Description>
 
       <ScrollTop />

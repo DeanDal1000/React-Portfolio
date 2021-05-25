@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //Images
 import athlete from '../img/athlete-small.png';
-import film from '../img/film.jpg';
-import music from '../img/music.jpg';
+import film from '../img/movie.png';
+import human from '../img/human.jpg';
+
 import {
   Movie,
   Work,
@@ -98,16 +99,15 @@ const Projects = () => {
           <div class="col-md-4">
             <div class="content">
               {' '}
-              <a href="#">
+              <a href="https://github.com/DeanDal1000/HR-CrudApplication">
                 <div class="content-overlay"></div>{' '}
-                <img
-                  class="content-image"
-                  src="https://i.imgur.com/7cNRozs.jpg"
-                />
+                <img class="content-image" src={human} />
                 <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">Horror Resource</h3>
                   <p class="content-text">
-                    <i class="fa fa-map-marker"></i> Russia
+                    <i class="fab fa-node"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fas fa-database"></i>
                   </p>
                 </div>
               </a>{' '}
@@ -116,16 +116,14 @@ const Projects = () => {
           <div class="col-md-4">
             <div class="content">
               {' '}
-              <a href="#">
+              <a href="">
                 <div class="content-overlay"></div>{' '}
-                <img
-                  class="content-image"
-                  src="https://i.imgur.com/CS59IJZ.jpg"
-                />
+                <img class="content-image" src={film} />
                 <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">Find My Movie</h3>
                   <p class="content-text">
-                    <i class="fa fa-map-marker"></i> Nepal
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-react"></i>
                   </p>
                 </div>
               </a>{' '}
@@ -205,6 +203,7 @@ const Projects = () => {
           </div>
         </div>
       </motion.div>
+      <ScrollTop />;
     </Projectcontainer>
   );
 };

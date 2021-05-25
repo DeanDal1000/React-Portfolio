@@ -141,7 +141,16 @@ export const Card = styled.div`
   }
 `;
 
-export const Projectcontainer = styled.div`
+export const Projectcontainer = styled(motion.div)`
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 2rem 5rem;
+  h2 {
+    padding: 1rem 0rem;
+  }
+  @media (max-width: 1300px) {
+    padding: 2rem 2rem;
+  }
   .container {
     margin-top: 100px;
   }
@@ -163,7 +172,7 @@ export const Projectcontainer = styled.div`
   }
 
   .content .content-overlay {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     height: 99%;
     width: 100%;
@@ -183,6 +192,8 @@ export const Projectcontainer = styled.div`
 
   .content-image {
     width: 100%;
+    height: 40vh;
+    object-fit: cover;
   }
 
   img {
@@ -224,6 +235,11 @@ export const Projectcontainer = styled.div`
   .content-details p {
     color: #fff;
     font-size: 0.8em;
+    i {
+      color: lightgrey;
+      margin: 0.5rem;
+      font-size: 2.5rem;
+    }
   }
 
   .fadeIn-bottom {

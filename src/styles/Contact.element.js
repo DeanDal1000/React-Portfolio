@@ -36,7 +36,7 @@ export const Hide = styled.div`
       background: none;
       border: none;
       border-bottom: 1px solid #666;
-      color: #23d997;
+      color: orange;
       font-size: 14px;
       text-transform: uppercase;
       outline: none;
@@ -45,7 +45,7 @@ export const Hide = styled.div`
     .submit-button {
       background: none;
       border: none;
-      color: #23d997;
+      color: orange;
       font-size: 14px;
       cursor: pointer;
       outline: none;
