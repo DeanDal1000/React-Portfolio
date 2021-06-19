@@ -16,7 +16,12 @@ import '../styles/styles1.css';
 
 const Projects = () => {
   return (
-    <Projectcontainer>
+    <Projectcontainer
+      exit="exit"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+    >
       <motion.div
         className="container"
         variants={pageAnimation}

@@ -24,7 +24,7 @@ const AboutSection = () => {
             <motion.h2 variants={titleAnimation}>Software Engineer</motion.h2>
           </Hide>
         </div>
-        <motion.p variants={fade}>Contact for inquiries</motion.p>
+        <motion.p variants={fade}>Please feel free to contact</motion.p>
         <Link to="/contact">
           <motion.button variants={fade}>Contact Me</motion.button>
         </Link>

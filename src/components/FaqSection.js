@@ -30,13 +30,12 @@ const FaqSection = () => {
             </p>
           </Answer>
         </Toggle>
-        <Toggle title="Hello Dean">
+        <Toggle title="Plan's for the future?">
           <Answer>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              ullam, magni, harum velit neque inventore fugit eum beatae ea
-              minima similique illo odio, dignissimos nulla recusandae.
-              Corporis, nam? Impedit, voluptatibus!
+              I would like to have further developed my programming and UX
+              design skills and be in full stack developer position. Also
+              finally to finish The Sopranos boxset.
             </p>
           </Answer>
         </Toggle>

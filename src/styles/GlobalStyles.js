@@ -30,13 +30,13 @@ button {
     font-size: 1.1rem;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 3px solid yellow;
+    border: 3px solid #ccc;
     background: transparent;
     color: white;
     transition: all 0.5s ease;
     font-family: 'Roboto', sans-serif;
     &:hover {
-        background-color: #23d997;
+        background-color: orange;
         color:white
     }
 }
