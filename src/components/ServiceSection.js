@@ -1,5 +1,5 @@
 import React from 'react';
-import home2 from '../img/home2.png';
+// import home2 from '../img/home2.png';
 //Images
 import reactIcon from '../img/react.svg';
 import javaScriptIcon from '../img/js.svg';
@@ -11,13 +11,13 @@ import pythonIcon from '../img/python.svg';
 import {
   Layout,
   Description,
-  Image,
+  // Image,
   Cards,
   Card,
 } from '../styles/Service.element';
 //Animation
 import { motion } from 'framer-motion';
-import { imgAnimation } from './animation';
+// import { imgAnimation } from './animation';
 // import { useInView } from 'react-intersection-observer';
 // import { useAnimation } from 'framer-motion';
 
@@ -103,9 +103,9 @@ const ServiceSection = () => {
           </Card>
         </Cards>
       </Description>
-      <Image>
+      {/* <Image>
         <motion.img variants={imgAnimation} alt="icon" src={home2}></motion.img>
-      </Image>
+      </Image> */}
     </Layout>
   );
 };

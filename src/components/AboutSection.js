@@ -1,11 +1,11 @@
 import React from 'react';
 //Pages
-import home1 from '../img/home1.png';
+// import home1 from '../img/home1.png';
 //Styles
 import { Description, Hide, Image, Layout } from '../styles/About.elements';
 //Animation
 import { motion } from 'framer-motion';
-import { titleAnimation, fade, imgAnimation } from './animation';
+import { titleAnimation, fade } from './animation';
 import Wave from './Wave';
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ const AboutSection = () => {
         </Link>
       </Description>
       <Image>
-        <motion.img variants={imgAnimation} src={home1} alt="home1" />
+        {/* <motion.img variants={imgAnimation} src={home1} alt="home1" /> */}
       </Image>
       <Wave />
     </Layout>
